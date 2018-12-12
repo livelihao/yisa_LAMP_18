@@ -1,0 +1,9 @@
+﻿使用target_data.py读取train.txt,处理字符串并且生成target.csv
+使用img_handle.py对数据图像进行尺寸归一化
+使用retrain.sh和训练好的神经网络进行特征提取（要将训练数据和测试数据一起进行特征提取）
+使用bottlen_handle.py对提取的特征进行合并，生成bottlenecks.csv文件
+使用randomtree_**_smo.py 训练分类模型和分类
+使用out_handle.py对输出进行格式化并生成str_out.txt提交文件。
+
+文件详细说明见：README.md
+有问题请致电：17854257962, lihao
